@@ -1,0 +1,182 @@
+{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0c4b4fc3872f4b6a0",
+                    "RouteTableId": "rtb-00b423d2bb4784c49",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-00b423d2bb4784c49",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "DEV-MainRT"
+                }
+            ],
+            "VpcId": "vpc-0e63acc374dd13e17",
+            "OwnerId": "454708369272"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-07f405569db2e570d",
+                    "RouteTableId": "rtb-07b7ea2c62d2790b9",
+                    "SubnetId": "subnet-09bd45133cdb3c880",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-08e8bdd3bfe40c67f",
+                    "RouteTableId": "rtb-07b7ea2c62d2790b9",
+                    "SubnetId": "subnet-01d849b13473bad6f",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0cc5fc4a66ed13aed",
+                    "RouteTableId": "rtb-07b7ea2c62d2790b9",
+                    "SubnetId": "subnet-0be2fdb168b0e927a",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-07b7ea2c62d2790b9",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-047aca94a31d602f8",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "DEV-PubRT"
+                }
+            ],
+            "VpcId": "vpc-0e63acc374dd13e17",
+            "OwnerId": "454708369272"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": true,
+                    "RouteTableAssociationId": "rtbassoc-0d0a56de858f1800d",
+                    "RouteTableId": "rtb-0595822a78dc6c9e3",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-0595822a78dc6c9e3",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "172.31.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-0bf4731a34cce774c",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "Default-MainRT"
+                }
+            ],
+            "VpcId": "vpc-0eaa198b8499b0d95",
+            "OwnerId": "454708369272"
+        },
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-041199202d9442403",
+                    "RouteTableId": "rtb-084f82761f1d4aade",
+                    "SubnetId": "subnet-0ea93051eefce2ed6",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-041cb09251f23b25d",
+                    "RouteTableId": "rtb-084f82761f1d4aade",
+                    "SubnetId": "subnet-0da14191b866530e3",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0215368c64677e9b4",
+                    "RouteTableId": "rtb-084f82761f1d4aade",
+                    "SubnetId": "subnet-0a977b8d3f5639a68",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-084f82761f1d4aade",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.1.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "InstanceId": "i-018afa2aef7c67f89",
+                    "InstanceOwnerId": "454708369272",
+                    "NetworkInterfaceId": "eni-06eb6459f95a9b991",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "DEV-PvtRT"
+                }
+            ],
+            "VpcId": "vpc-0e63acc374dd13e17",
+            "OwnerId": "454708369272"
+        }
+    ]
+}
