@@ -1,4 +1,4 @@
-# 🚀 SMIT DevOps Assignment
+#  SMIT DevOps Assignment
 
 ## AWS Multi-Tier Infrastructure Deployment with Nginx Reverse Proxy & FastAPI Backend
 
@@ -129,7 +129,7 @@ project/
 
 ---
 
-# 🚀 Deployment Steps
+#  Deployment Steps
 
 ## 1. Configure AWS CLI
 
